@@ -1620,6 +1620,7 @@ GameObject:
   - component: {fileID: 1865505846}
   - component: {fileID: 1865505845}
   - component: {fileID: 1865505847}
+  - component: {fileID: 1865505849}
   - component: {fileID: 1865505848}
   m_Layer: 0
   m_Name: ball
@@ -1802,6 +1803,20 @@ MonoBehaviour:
   scoreField: {fileID: 229664586}
   topScore: 1
 --- !u!114 &1865505848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865505840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a6bd0f37e68026458cf466805b96bae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  leftOrRight: 
+--- !u!114 &1865505849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -23,7 +23,13 @@ public class ball : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody2D>();
     }
-
+    void Update()
+    {
+        Xposition = Xposition + xSpeed * Time.deltaTime;
+        Yposition = Yposition + ySpeed * Time.deltaTime;
+        transform.position = new Vector3(Xposition, Yposition, 0);
+    }
+    
 
 
     // Update is called once per frame

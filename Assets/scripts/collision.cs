@@ -41,9 +41,7 @@ public class collision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Xposition = Xposition + xSpeed * Time.deltaTime;
-        Yposition = Yposition + ySpeed * Time.deltaTime;
-        transform.position = new Vector3(Xposition, Yposition, 0);
+
         if (leftScore >= topScore)
         {
             scoreField.text = "Left Player has won!";
