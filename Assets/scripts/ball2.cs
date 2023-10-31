@@ -14,8 +14,8 @@ public class ball2 : MonoBehaviour
     void Start()
     {
         transform.position = new Vector3(Xposition, Yposition, 0);
-        xSpeed = 20f;
-        ySpeed = 20f;
+        xSpeed = 10f;
+        ySpeed = 10f;
     }
     private Rigidbody2D _rigidbody;
     private void Awake()
