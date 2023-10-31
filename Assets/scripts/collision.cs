@@ -10,7 +10,7 @@ public class collision : MonoBehaviour
     public TMP_Text scoreField;
     private int leftScore = 0;
     private int rightScore = 0;
-    public int topScore = 1;
+    public int topScore = 10;
     
 
     private void resetBall(string leftOrRight)
