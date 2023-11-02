@@ -7,8 +7,6 @@ public class inputPaddle : MonoBehaviour
     public string leftOrRight;
   
 
-
-
     // functions that handles movement and has varbials for up and down
     void setKeyAndMovement(KeyCode up, KeyCode down)
     {

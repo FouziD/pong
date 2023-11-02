@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class scenemanage : MonoBehaviour
-{
+{ // keuze van de spel version
     public void playervsplayer()
     {
         SceneManager.LoadScene("playervsplayer");

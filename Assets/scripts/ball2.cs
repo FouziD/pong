@@ -22,7 +22,7 @@ public class ball2 : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody2D>();
     }
-    void Update()
+    void Update() // the move code of the ball
     {
         Xposition = Xposition + xSpeed * Time.deltaTime;
         Yposition = Yposition + ySpeed * Time.deltaTime;

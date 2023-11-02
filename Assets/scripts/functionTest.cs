@@ -31,7 +31,7 @@ public class functionTest : MonoBehaviour
 
 
     void inputPaddle(KeyCode up, KeyCode down)
-    {
+    { //the control of the paddle
         if (Input.GetKey(up))
         {
             transform.Translate(Vector3.up * speed * Time.deltaTime);

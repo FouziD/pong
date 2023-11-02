@@ -13,7 +13,7 @@ public class ball : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {    // speed of the ball
         transform.position = new Vector3(Xposition, Yposition, 0);
         xSpeed = 1f;
         ySpeed = 1f;
@@ -24,7 +24,7 @@ public class ball : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
     }
     void Update()
-    {
+    {  // the ball is moving not om frame rate but actual time so speed is the the same on every device
         Xposition = Xposition + xSpeed * Time.deltaTime;
         Yposition = Yposition + ySpeed * Time.deltaTime;
         transform.position = new Vector3(Xposition, Yposition, 0);
