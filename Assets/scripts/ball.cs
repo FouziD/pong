@@ -35,6 +35,7 @@ public class ball : MonoBehaviour
     // Update is called once per frame
 
     private void OnTriggerEnter2D(Collider2D collision)
+        // it control the speed of the gameobject
     {
         if (collision.gameObject.CompareTag("horizontalWall") == true)
         {
